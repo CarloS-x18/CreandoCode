@@ -16,6 +16,7 @@ html {
     box-sizing: inherit; /* Acompaña al border box en su funcion en este documento */
 }
 
+
 /* Globales */
 body {
     font-family: var(--fuentePrincipal);
@@ -52,6 +53,7 @@ h3 {
 .strongs {
     font-weight: 800;
 }
+
 
 /* Header */
 .margen {
@@ -128,6 +130,7 @@ h3 {
     
 }
 
+
 /* Informacion */
 .informacion {
     margin-top: 5rem;
@@ -189,6 +192,7 @@ h3 {
     }
 }
 
+
 /*Redes Sociales*/
 .redes {
     margin: 4rem 0 0 0;
@@ -201,6 +205,7 @@ h3 {
 .redes a:last-of-type {
     margin-right: 0;
 }
+
 
 /* Info de Posts */
 .info-publi {
@@ -240,6 +245,7 @@ h3 {
     }
 }
 
+
 /* Articles */ 
 .articles h3 {
     font-size: 2.8rem;
@@ -249,6 +255,7 @@ h3 {
         font-size: 3.6rem;
     }
 }
+
 
 /* Contenido Cursos */
 .cursos {
@@ -271,6 +278,7 @@ h3 {
     width: 20rem;
 } 
 
+
 /* Footer */
 footer {
     display: flex;
@@ -281,7 +289,7 @@ footer {
 footer p {
     padding: 2rem;
     color: var(--gris);
-    margin-bottom: 0;
+    margin: 0;
 }
 .icon-footer {
     width: 3rem;
@@ -294,10 +302,61 @@ footer p {
     }
 }
 
+
 /* Página Publicaciones */
 .contenido-publicaciones {
     
 }
 .contenido-publicaciones h2 {
     font-size: 4.6rem;
+}
+
+
+/* Estilo de los Artículos */
+.article {
+    width: min(75%, 100rem);
+    margin: 0 auto;
+}
+.article-title {
+    color: var(--colorSecundario);
+    font-size: 2.2rem;
+    margin-top:5rem;
+}
+.public-date {
+    color: var(--gris);
+    margin-right: 2rem;
+}
+.m-aTitle {
+    border: 3px dotted var(--colorPrincipal);
+    margin: 2rem auto;
+}
+.article-text {
+    width: min(90%, 115rem);
+    margin: 0 auto;
+    font-size: 1.4rem;
+}
+.aText-grey {
+    color: var(--gris);
+    width: min(85%, 110rem);
+}
+.article-img {
+    width: 60%;
+    border-radius: 0.5rem;
+    border: 2px solid var(--colorSecundario);
+    margin-bottom: 3rem;
+}
+.img-center {
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 768px) {
+    .article-title {
+        font-size: 2.24rem;
+        }
+    .article-text {
+        font-size: 1.6rem;
+    }
+    .article-img {
+        width: 40%;
+    }
 }
