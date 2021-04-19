@@ -305,6 +305,7 @@ footer p {
 }
 .redes-footer {
     margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 @media (min-width: 700px) {
     footer {
@@ -395,3 +396,12 @@ footer p {
     }
 }
 
+/* Contenido Cursos */
+.contenedor-cursos h2 {
+    font-size: 3rem;
+}
+@media (min-width: 768px) {
+    .contenedor-cursos h2 {
+        font-size: 4rem;
+    }
+}
