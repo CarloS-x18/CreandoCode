@@ -501,11 +501,20 @@ footer p {
 }
 .curso-resume {
     color: var(--gris);
+    height: 12rem;
 }
 @media (min-width: 541px) {
     .contenedor-cursos h2 {
         font-size: 4rem;
     }
+}
+.prox {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.prox p {
+    border-bottom: 1px dashed var(--colorSecundario);
 }
 
 /* Página Acerca de Mi */
