@@ -544,6 +544,11 @@ footer p {
         margin: 0 2rem;
     }
 }
+@media (max-width: 359px) {
+    .info-acercaDe img {
+        margin-bottom: 8rem;
+    }
+}
 
 /* Boton Ver Más*/
 .button-ver {
